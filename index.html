@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page__wrapper">
+      <div class="column__left">
+        <div class="column__left-first">
+          <img src="images/aster.png" alt="aster-img" class="aster-image" />
+          Aster News
+        </div>
+        <div class="top-stories-wrapper">
+          <div class="top-stories">
+            <div class="top-stories-dot">
+              <img src="images/Ellipse.svg" alt="dot-img" class="dot-image" />
+            </div>
+            <div class="top-stories-img-container">
+              <img
+                src="images/home.svg"
+                alt="home-img"
+                class="home-image img"
+              />
+            </div>
+            <div clas="top-stories-text">Top Stories</div>
+          </div>
+        </div>
+        <div class="column__left-second">
+          <div class="around-world menu">
+            <div class="around-world-img-container">
+              <img
+                src="images/globe.svg"
+                alt="globe-img"
+                class="globe-image img"
+              />
+            </div>
+            <div class="around-world-text">Around the World</div>
+          </div>
+          <div class="bussines menu">
+            <div class="bussines-img-container">
+              <img
+                src="images/briefcase.svg"
+                alt="bussines-img"
+                class="bussines-image img"
+              />
+            </div>
+            <div class="bussines-text">Business</div>
+          </div>
+          <div class="health menu">
+            <div class="health-img-container">
+              <img
+                src="images/activity.svg"
+                alt="health-img"
+                class="health-image img"
+              />
+            </div>
+            <div class="health-text">Health</div>
+          </div>
+        </div>
+        <hr />
+        <div class="column__left-third">
+          <div class="covid menu">
+            <div class="covid-img-container">
+              <img
+                src="images/shield.svg"
+                alt="covid-img"
+                class="covid-image img"
+              />
+            </div>
+            <div class="covid-text">Covid 19</div>
+          </div>
+        </div>
+        <hr />
+        <div class="column__left-fourth">
+          <div class="entertainment menu">
+            <div class="entertainment-img-container">
+              <img
+                src="images/play-circle.svg"
+                alt="play-img"
+                class="play-image img"
+              />
+            </div>
+            <div class="entertainment-text">Entertainment</div>
+          </div>
+          <div class="sports menu">
+            <div class="sports-img-conatiner">
+              <img
+                src="images/award.svg"
+                alt="sports-img"
+                class="sports-image img"
+              />
+            </div>
+            <div class="sports-text">Sports</div>
+          </div>
+          <div class="discussion menu">
+            <div class="discussion-img-container">
+              <img
+                src="images/message-circle.svg"
+                alt="discussion-img"
+                class="discussion-image img"
+              />
+            </div>
+            <div class="discussion-text">Discussion</div>
+          </div>
+          <div class="notification menu">
+            <div class="notification-img-container">
+              <img
+                src="images/bell.svg"
+                alt="notification-img"
+                class="notification-image img"
+              />
+            </div>
+            <div class="notification-text">Notification</div>
+          </div>
+          <div class="news-feed menu">
+            <div class="news-feed-img-container">
+              <img
+                src="images/settings.svg"
+                alt="news-feed-img"
+                class="news-feed-image img"
+              />
+            </div>
+            <div class="news-feed-text">News Feed Settings</div>
+          </div>
+        </div>
+        <div class="column__left-five">
+          <div class="subscribe-row1">
+            <div class="subscribe-image-container">
+              <img
+                src="images/gift.svg"
+                alt="subscribe-img"
+                class="subscribe-image"
+              />
+            </div>
+            <div class="subscribe-text">Subscribe to Premium</div>
+          </div>
+          <div class="subscribe-row2">
+            <div class="subscribe-price">
+              <div class="subscribe-price-number">$8</div>
+              <div class="subscribe-price-month">/m</div>
+            </div>
+            <button class="upgrade-btn">Upgrade</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENT -->
+
+      <div class="content__wrapper">
+        <div class="content__top-bar">
+          <form class="search-container">
+            <input
+              type="text"
+              placeholder="Search for news.."
+              class="top__bar-input"
+            />
+            <button type="search" class="search-btn">
+              <img
+                src="images/search.svg"
+                alt="search-img"
+                class="search__image"
+              />
+            </button>
+          </form>
+          <div class="content__top-bar-latest">
+            <div class="latest">
+              Latest news on <a class="covid">Covid-19</a>
+            </div>
+            <div class="content__top-bar-latest-right">
+              <img
+                src="images/arrow.svg"
+                alt="arrow-img"
+                class="image__arrow"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="content__heading">Top Stories for you</div>
+        <div class="categories">
+          <div class="category__all">All</div>
+          <div class="category__box">Android</div>
+          <div class="category__box">Criket</div>
+          <div class="category__box">iPhone</div>
+          <div class="category__box">Google</div>
+          <div class="category__box">Nano Technology</div>
+          <div class="category__box">Mental Health</div>
+          <img src="images/dots.svg" alt="dots-img" class="dots_image" />
+        </div>
+
+        <div class="article__container-main">
+          <div class="article__container-main-wrapper">
+            <div class="article__container-main-heading">
+              Samsung Galaxy F22 launched in India: Price, features, other
+              details
+
+              <div class="article__container-main-content">
+                Samsung Galaxy F22 has been launched in India. The new
+                smartphone has been priced in the mid-range segment. The new
+                smartphone is powered by a MediaTek chipset and features a high
+                refresh rate AMOLED display.
+              </div>
+              <div class="article__container-main-footer">
+                <div class="article__container-main-footerbox1">
+                  <div class="article__container-main-footer1">The Mint</div>
+                  <div class="article__container-main-footer2">15 mins ago</div>
+                </div>
+                <div class="article__container-main-footerbox2">
+                  <div class="article__container-main-footer3">
+                    <img
+                      src="images/share.svg"
+                      alt="share-img"
+                      class="image__share"
+                    />
+                    <div class="footer3-txt">Share</div>
+                  </div>
+                  <div class="article__container-main-footer4">
+                    <img
+                      src="images/pocket.svg"
+                      alt="pocket-img"
+                      class="image__pocket"
+                    />
+                    <div class="footer4-txt">Read Later</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="article__container-main-image">
+              <img
+                src="images/samsung.png"
+                alt="samsung-img"
+                class="image__samsung"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="articles__container">
+          <div class="article__first art">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left">
+                <div class="article__first-heading art-head">
+                  Battlegrounds Mobile India iOS release date
+                </div>
+                <div class="article__first-content art-cont">
+                  The reason behind their disappointment is that iPhone users
+                  have been..
+                </div>
+              </div>
+              <div class="article__first-img art-img">
+                <img
+                  src="images/battleground.png"
+                  class="battle-img"
+                  class="image__battle"
+                />
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">The Mint</div>
+                <div class="article__container-main-footer2">15 mins ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="article__first art">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left">
+                <div class="article__first-heading art-head">
+                  Instagram working on `Exclusive Stories` for subscribers
+                </div>
+                <div class="article__first-content art-cont">
+                  Instagram could be jumping on the paid subscription..
+                </div>
+              </div>
+              <div class="article__first-img art-img">
+                <img
+                  src="images/instagram.png"
+                  class="insta-img"
+                  class="insta__img"
+                />
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">The Mint</div>
+                <div class="article__container-main-footer2">15 mins ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="articles__container">
+          <div class="article__first art art2">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left art2-left">
+                <div class="article__first-heading art-head">
+                  Petrol, diesel prices - July 6: Fuel prices unchanged after
+                  touching record high
+                </div>
+                <div class="article__first-content art-cont">
+                  The price of petrol remained unchanged on July 6 after
+                  reaching a new record high on the previous day, according to a
+                  price notification by state-owned...
+                </div>
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">Radar 52</div>
+                <div class="article__container-main-footer2">1 hour ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="article__first art">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left">
+                <div class="article__first-heading art-head">
+                  Android smartphone users alert! Remove these 9 apps now
+                </div>
+                <div class="article__first-content art-cont">
+                  Stealer trojans were spread as harmless software..
+                </div>
+              </div>
+              <div class="article__first-img art-img">
+                <img
+                  src="images/android.png"
+                  class="insta-img"
+                  class="insta__img"
+                />
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">Live mint</div>
+                <div class="article__container-main-footer2">2 hours ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="articles__container">
+          <div class="article__first art">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left">
+                <div class="article__first-heading art-head">
+                  How to install Windows 11 on almost any unsupported PC
+                </div>
+                <div class="article__first-content art-cont">
+                  Microsoft is allowing some unsupported computers..
+                </div>
+              </div>
+              <div class="article__first-img art-img">
+                <img
+                  src="images/windows.png"
+                  class="battle-img"
+                  class="image__battle"
+                />
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">Tech Mint</div>
+                <div class="article__container-main-footer2">3 hours ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="article__first art">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left">
+                <div class="article__first-heading art-head">
+                  This charging feature from Android phones may come to iPhone
+                  13
+                </div>
+                <div class="article__first-content art-cont">
+                  You will always find a set of people who will say that..
+                </div>
+              </div>
+              <div class="article__first-img art-img">
+                <img
+                  src="images/iphone-art.png"
+                  class="insta-img"
+                  class="insta__img"
+                />
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">Live Mint</div>
+                <div class="article__container-main-footer2">5 hours ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="creators__slider-container">
+          <div class="creators__slider-container-left">
+            <div class="feather">
+              <img
+                src="images/feather.svg"
+                alt="feather-img"
+                class="feather__image"
+              />
+            </div>
+            <div class="creator__text">Creators you should follow</div>
+          </div>
+          <div class="creators__slider-container-right">
+            <div class="arrow-left">
+              <img
+                src="images/arrow-left.svg"
+                alt="arrow-left"
+                class="arrow-left__image"
+              />
+            </div>
+            <div class="arrow-right">
+              <img
+                src="images/arrow-right.svg"
+                alt="arrow-right"
+                class="arrow-right__image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="creators-list__container">
+          <div class="creator__first creator">
+            <img
+              src="images/shan.png"
+              alt="creator-img"
+              class="shan__image creator-img"
+            />
+            <div class="creator__name">Shan Teylor</div>
+            <div class="creator__category">Tech Mint</div>
+            <div class="creator-follow__button">
+              <button type="button" class="creator-btn">Follow</button>
+            </div>
+          </div>
+          <div class="creator__first creator">
+            <img
+              src="images/mary.png"
+              alt="creator-img"
+              class="shan__image creator-img"
+            />
+            <div class="creator__name">Mary Angela</div>
+            <div class="creator__category">Live Mint</div>
+            <div class="creator-follow__button">
+              <button type="button" class="creator-btn">Follow</button>
+            </div>
+          </div>
+          <div class="creator__first creator">
+            <img
+              src="images/kyon.png"
+              alt="creator-img"
+              class="shan__image creator-img"
+            />
+            <div class="creator__name">Kyon Cho Chi</div>
+            <div class="creator__category">Bizz Daily</div>
+            <div class="creator-follow__button">
+              <button type="button" class="creator-btn">Follow</button>
+            </div>
+          </div>
+          <div class="creator__first creator">
+            <img
+              src="images/paul.png"
+              alt="creator-img"
+              class="shan__image creator-img"
+            />
+            <div class="creator__name">Paul Livingstone</div>
+            <div class="creator__category">Sport Biz</div>
+            <div class="creator-follow__button">
+              <button type="button" class="creator-btn">Follow</button>
+            </div>
+          </div>
+          <div class="creator__first creator">
+            <img
+              src="images/sara.png"
+              alt="creator-img"
+              class="shan__image creator-img"
+            />
+            <div class="creator__name">Sara Jay</div>
+            <div class="creator__category">Radar 52</div>
+            <div class="creator-follow__button">
+              <button type="button" class="creator-btn">Follow</button>
+            </div>
+          </div>
+        </div>
+        <div class="articles__container">
+          <div class="article__first art">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left">
+                <div class="article__first-heading art-head">
+                  INDvENG Tests to be played in front of crowd
+                </div>
+                <div class="article__first-content art-cont">
+                  The 5-Test series between India & England is set to be played
+                  in front of packed..
+                </div>
+              </div>
+              <div class="article__first-img art-img">
+                <img
+                  src="images/indveng.png"
+                  class="battle-img"
+                  class="image__battle"
+                />
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">Sport Biz</div>
+                <div class="article__container-main-footer2">7 hours ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="article__first art">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left">
+                <div class="article__first-heading art-head">
+                  The 10 Coolest Wearable Tech Gadgets Of 2021 (So Far)
+                </div>
+                <div class="article__first-content art-cont">
+                  Driven by demand for connected earbuds and a..
+                </div>
+              </div>
+              <div class="article__first-img art-img">
+                <img
+                  src="images/gadgets.png"
+                  class="insta-img"
+                  class="insta__img"
+                />
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">The Mint</div>
+                <div class="article__container-main-footer2">7 hours ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="articles__container">
+          <div class="article__first art art2">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left art2-left">
+                <div class="article__first-heading art-head">
+                  Biden's cold response to Afghanistan's collapse to have far
+                  consequences
+                </div>
+                <div class="article__first-content art-cont">
+                  When US President Joe Biden chose in April to withdraw all
+                  American forces from Afghanistan by September, we were among
+                  those who judged..
+                </div>
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">Radar 52</div>
+                <div class="article__container-main-footer2">8 hours ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="article__first art">
+            <div class="article__first-wrapper">
+              <div class="article__first-left art-left">
+                <div class="article__first-heading art-head">
+                  Hardik Pandya 'is bowling and it is a very good sign' -
+                  Suryakumar
+                </div>
+                <div class="article__first-content art-cont">
+                  I think that the team management and Hardik..
+                </div>
+              </div>
+              <div class="article__first-img art-img">
+                <img
+                  src="images/hardik.png"
+                  class="insta-img"
+                  class="insta__img"
+                />
+              </div>
+            </div>
+            <div class="article__container-main-footer art-footer">
+              <div class="article__container-main-footerbox1">
+                <div class="article__container-main-footer1">Live mint</div>
+                <div class="article__container-main-footer2">2 hours ago</div>
+              </div>
+              <div class="article__container-main-footerbox2">
+                <div class="article__container-main-footer3">
+                  <img
+                    src="images/share.svg"
+                    alt="share-img"
+                    class="image__share"
+                  />
+                  <div class="footer3-txt">Share</div>
+                </div>
+                <div class="article__container-main-footer4">
+                  <img
+                    src="images/pocket.svg"
+                    alt="pocket-img"
+                    class="image__pocket"
+                  />
+                  <div class="footer4-txt">Read Later</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__button">
+          <button type="button" class="footer-btn">Show more</button>
+        </div>
+        <div class="copyright__container">
+          <div class="copyright__container-left">
+            <div class="cprght">© Aster News, 2022</div>
+          </div>
+          <div class="copyright__container-right">
+            <div class="cprght">Privacy Policy</div>
+            <div class="cprght">Terms of Service</div>
+          </div>
+        </div>
+      </div>
+      <div class="right__side-wrapper">
+        <div class="profile__container">
+          <div class="profile__image-container">
+            <img src="images/user.svg" alt="user-img" class="user__image" />
+          </div>
+          <div class="profile__text-container">My Profile</div>
+          <div class="profile__arrow-container">
+            <img
+              src="images/triangle.png"
+              alt="triangle-img"
+              class="image__triangle"
+            />
+          </div>
+        </div>
+
+        <div class="weather__container">
+          <div class="whether__header">
+            <div class="whether__header-txt">Combatore, Tamil Nadu</div>
+            <div class="whether__header-img">
+              <img
+                src="images/crosshair.svg"
+                alt="crosshair-img"
+                class="crosshair__image"
+              />
+            </div>
+          </div>
+          <hr />
+          <div class="whether__content">
+            <div class="whether__wrapper">
+              <div class="whether__sunny">Sunny</div>
+              <div class="whether__celsius">31°c</div>
+            </div>
+            <div class="sun">
+              <img src="images/sun.png" alt="sun-img" class="sun__image" />
+            </div>
+          </div>
+          <div class="whether__footer">
+            <div class="whether__footer-celsius">Celsius</div>
+            <div class="whether__footer-fahr">Fahrenheit</div>
+          </div>
+        </div>
+        <div class="story__container">
+          <div class="story__header">
+            <div class="story__header-img">
+              <img
+                src="images/feather.svg"
+                alt="feather-img"
+                class="feather__image"
+              />
+            </div>
+            <div class="story__header-text">Become a Story Writer</div>
+          </div>
+          <div class="story__content">
+            <div class="story__content-text">
+              Contribute stories and start earning.
+            </div>
+            <div class="story__button">
+              <button type="button" class="know-more__button">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div class="quick__container">
+          <div class="quick__header">
+            <div class="quick__header-note-img">
+              <img src="images/note.svg" alt="note-img" class="note__image" />
+            </div>
+            <div class="quick__header-text">Quick Bytes</div>
+            <div class="quick__header-arrows">
+              <div class="quick__header-back-img">
+                <img
+                  src="images/back-arrow.png"
+                  alt="back-arrow-img"
+                  class="back-arrow__image"
+                />
+              </div>
+              <div class="quick__header-fwd-img">
+                <img
+                  src="images/fwd-arrow.png"
+                  alt="fwd-arrow-img"
+                  class="fwd-arrow__image"
+                />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="quick__content-container">
+            The price of petrol remained unchanged on July 6 after reaching a
+            new record high on the previous day, according to a price
+            notification by state-owned fuel retailers. The diesel price
+            remained stable for the second consecutive day.
+            <br /><br />The increase on July 5, 35th in two months, took the
+            petrol price in Delhi closer to Rs 100 per litre-mark. The petrol
+            price in the national capital soared to Rs 99.9 a litre and diesel
+            was priced at Rs 89.4 per litre, according to Bharat Petroleum's
+            price listing.
+          </div>
+          <div class="quick__footer">
+            <div class="quick__dots-container">
+              <img
+                src="images/dotdotdot.png"
+                alt="dotdot-img"
+                class="dotdot__image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="subscribe__container">
+          <div class="subscribe__header">Subscribe to our newsletter</div>
+          <div class="subscribe__input-container">
+            <input
+              type="text"
+              placeholder="Enter Email"
+              id="email"
+              class="subscribe__input"
+            />
+          </div>
+          <div class="subscribe__input-button">
+            <button type="button" class="subscribe__button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
